@@ -1,79 +1,100 @@
-body{
+body {
     background-color: black;
     position: relative;
     z-index: 1;
 }
-.main_img{
+
+.main_img {
     width: 80vw;
     height: 100vh;
     position: absolute;
     z-index: -3;
     right: 0%;
 }
+
 /*------------------- top line one--------------------*/
-.top_line1{
+.top_line1 {
     width: 91vw;
     height: 2vh;
     background-color: white;
     position: absolute;
-     right: 0%; 
-     top:1rem;
-    margin-left:8rem;
+    right: 0%;
+    top: 1rem;
+    margin-left: 8rem;
 }
-.top_line2{
+
+.top_line2 {
     width: 8vw;
     height: 2vh;
-    background-color:white;
+    background-color: white;
     position: absolute;
     left: 0%;
-    top:4rem;
-    margin-left:8rem;
+    top: 4rem;
+    margin-left: 8rem;
     margin-top: -20px;
-    
+
 }
+
 /*--------------------------------------------orange part------------------------------------*/
-.orange{
+.orange {
     box-sizing: border-box;
     background-color: rgba(232, 85, 31, 0.678);
     z-index: -2;
     position: left;
-    height:auto;
+    height: auto;
     padding: 50px;
     margin-left: 100px;
 }
-.code{
-    font-size:10em;
+
+.code {
+    font-size: 10em;
     font-weight: bold;
     margin-left: -6px;
     color: white;
 }
-.code_1{
+
+.code_1 {
     font-size: large;
     /* margin-left: 10px; */
 }
-.text{
+
+.text {
     position: relative;
     margin-left: 20px;
     color: white;
 }
-.logo{
+
+.logo {
     font-size: 50px;
     font-weight: bolder;
     margin-top: -37px;
     margin-left: 50px;
     position: relative;
 }
-.big_line{
+
+.big_line {
     width: 1vw;
     height: 178vh;
-    background-color:white;
+    background-color: white;
     position: absolute;
     margin-left: -30px;
 }
 
+/* ---------------------------------TREND---------------------------- */
+.trend {
+    font-size: 50px;
+    font-weight: bold;
+    border: 0.2em solid white;
+    color: white;
+    background-color: rgba(239, 122, 80, 0.473);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-top: 60px;
+}
+
 /*--------------------------------------------BUSINESS--------------------------------  */
 
-.text_bus{
+.text_bus {
     font-size: 15rem;
     font-weight: bold;
     color: white;
@@ -81,94 +102,259 @@ body{
     margin-top: -100px;
 }
 
-.fly{
+.fly {
     font-size: 100px;
     color: white;
     margin-left: 30px;
-    
+
 }
-.create{
-    color:white;
+
+.create {
+    color: white;
     font-weight: bold;
     margin-left: 30px;
 }
+
 /*--------------------------------link-------------------------------------------*/
-.link{
+.link {
     font-size: 30px;
     font-weight: bold;
     margin-left: 145px;
     color: white;
     padding: 40px;
 }
-.location{
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: 170px;
-    color: white;
-}
-.call{
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: 170px;
-    color: white;
-}
-.mail{
-    font-size: 30px;
-    font-weight: 600;
-    margin-left: 170px;
-    color: white;
-}
-        /*---------------------------------green part------------------------------------*/
 
-.green{
+.location {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 170px;
+    color: white;
+}
+
+.call {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 170px;
+    color: white;
+}
+
+.mail {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 170px;
+    color: white;
+}
+
+/*---------------------------------green part------------------------------------*/
+
+.green {
     box-sizing: border-box;
     background-color: rgba(38, 237, 237, 0.703);
     z-index: -2;
     position: left;
-    height:auto;
+    height: auto;
     bottom: 0%;
     margin-top: -35rem;
 
 }
-.A{
+
+.A {
     font-size: 120px;
     font-weight: bold;
     text-align: right;
     color: white;
     margin-right: 40px;
 }
+
 /* -------------------------------------Green part paragraph----------------------------- */
-.paragraph{
+.paragraph {
     text-align: right;
     color: white;
-     margin-left: 20px;
-    margin-right: 40px; 
+    margin-left: 20px;
+    margin-right: 40px;
     padding: 10px;
-    
+
 
 }
+
 /* ---------------------------------------------both line------------------------------ */
-.line{
-    border:5px solid rgb(11, 247, 247);
+.line {
+    border: 5px solid rgb(11, 247, 247);
     margin-left: 40px;
     margin-right: 40px;
 }
-.line_1{
-    border:5px solid teal;
+
+.line_1 {
+    border: 5px solid teal;
     margin-left: 40px;
     margin-right: 40px;
 }
+
 /* ------------------------------------------icon-------------------------------------------- */
-.icon{
-   margin-block: 50px;
-   display: flex;
-   justify-content: space-around;
+.icon {
+    margin-block: 50px;
+    display: flex;
+    justify-content: space-around;
 
 }
+
 /* -------------------------------------footer link ------------------------*/
-.web_link{
+.web_link {
     text-align: center;
     font-size: 2rem;
     text-decoration: none;
     color: white;
 }
+
+/* -----------------------------------------media quaery------------------------------- */
+@media (max-width: 600px) {
+    body {
+        /* background-image: url("./main_img.jpeg"); */
+        position: relative;
+        background-repeat: no-repeat;
+    }
+    .orange {
+        box-sizing: border-box;
+        background-color: rgba(232, 51, 31, 0.56);
+        z-index: -2;
+        height: auto;
+        width: 100%;
+    }
+
+    .text_bus {
+        font-size: 4rem;
+        font-weight: bold;
+        color:#000000;
+        
+       
+    }
+
+    .green {
+        box-sizing: border-box;
+        background-color: rgba(38, 210, 237, 0.812);
+        z-index: -2;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .fly {
+        font-size: 50px;
+        color: white;
+        margin-left: 30px;
+
+    }
+    .trend {
+        font-size: 30px;
+        width: auto;
+        left: 0%;
+        text-align: center;
+        font-weight: bold;
+        font-family: cursive;
+        border: 0.2em solid rgb(13, 233, 28);
+        color: yellow;
+        background-color: rgba(0, 0, 255, 0.316);
+        writing-mode: horizontal-tb; 
+        text-orientation: sideways-right;
+        
+    }
+    .link {
+        font-size: 30px;
+        font-weight: bold;    
+        color: white;
+    
+    }
+    
+    .location {
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .call {
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+    }
+    
+    .mail {
+        font-size: 30px;
+        font-weight: 600;
+        color: white;
+    }
+    .top_line1 {
+        width: 50vw;
+        height: 2vh;
+        background-color: white;
+        position: absolute;
+        right: 0%;
+        top: 1rem;
+        margin-left: 8rem;
+    }
+    
+    .top_line2 {
+        width: 6vw;
+        height: 2vh;
+        background-color: white;
+        position: absolute;
+        left: 0%;
+        top: 4rem;
+        margin-left: 8rem;
+        margin-top: -20px;
+    }
+    .web_link {
+        text-align: center;
+        font-size: 1rem;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+/* --------------------------------Media Quaery part 2------------------------------------- */
+
+
+/* @media screen and (max-width:1024px)
+{
+    body {
+        background-color: rgb(49, 5, 71);
+        position: relative;
+        z-index: 1;
+    }  
+    .text_bus {
+        font-size: 10rem;
+        font-weight: bold;
+        color: rgb(32, 9, 240);
+        
+    }
+    .orange {
+        box-sizing: border-box;
+        background-color: rgba(232, 85, 31, 0.678);
+        z-index: -2;
+        position: left;
+        height: auto;
+        width: 100%;
+    }
+    .text {
+        font-size: 30px;
+        position: relative;
+        font-style: italic;
+        color: blue
+    }
+    .trend {
+        font-size: 40px;
+        width: 100%;
+        margin-left: -10rem;
+        text-align: center;
+        font-weight: bold;
+        font-family: cursive;
+        border: 0.2em solid #e9390d;
+        color: rgb(30, 0, 255);
+        background-color: rgba(85, 255, 0, 0.24);
+        writing-mode: horizontal-tb; 
+        text-orientation: sideways-right;
+        
+    }
+    
+
+} */
