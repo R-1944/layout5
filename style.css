@@ -12,26 +12,26 @@ body{
 }
 /*------------------- top line one--------------------*/
 .top_line1{
-    width: 94vw;
+    width: 91vw;
     height: 2vh;
     background-color: white;
     position: absolute;
      right: 0%; 
      top:1rem;
-    margin-left:4.5rem;
+    margin-left:8rem;
 }
 .top_line2{
-    width: 9vw;
+    width: 8vw;
     height: 2vh;
-    background-color: rgb(38, 6, 247);
+    background-color:white;
     position: absolute;
     left: 0%;
     top:4rem;
-    margin-left:6rem;
+    margin-left:8rem;
     margin-top: -20px;
     
 }
-/*----------------orange part-----------*/
+/*--------------------------------------------orange part------------------------------------*/
 .orange{
     box-sizing: border-box;
     background-color: rgba(232, 85, 31, 0.678);
@@ -63,6 +63,13 @@ body{
     margin-left: 50px;
     position: relative;
 }
+.big_line{
+    width: 1vw;
+    height: 178vh;
+    background-color:white;
+    position: absolute;
+    margin-left: -30px;
+}
 
 /*--------------------------------------------BUSINESS--------------------------------  */
 
@@ -71,6 +78,7 @@ body{
     font-weight: bold;
     color: white;
     margin-left: 10px;
+    margin-top: -100px;
 }
 
 .fly{
@@ -84,12 +92,13 @@ body{
     font-weight: bold;
     margin-left: 30px;
 }
-/*------------link-------------*/
+/*--------------------------------link-------------------------------------------*/
 .link{
     font-size: 30px;
     font-weight: bold;
-    margin-left: 185px;
+    margin-left: 145px;
     color: white;
+    padding: 40px;
 }
 .location{
     font-size: 30px;
@@ -113,12 +122,12 @@ body{
 
 .green{
     box-sizing: border-box;
-    background-color: rgba(0, 255, 255, 0.235);
+    background-color: rgba(38, 237, 237, 0.703);
     z-index: -2;
     position: left;
     height:auto;
     bottom: 0%;
-    margin-top: -40rem;
+    margin-top: -35rem;
 
 }
 .A{
@@ -134,16 +143,18 @@ body{
     color: white;
      margin-left: 20px;
     margin-right: 40px; 
+    padding: 10px;
     
 
 }
+/* ---------------------------------------------both line------------------------------ */
 .line{
-    border:5px solid teal;
+    border:5px solid rgb(11, 247, 247);
     margin-left: 40px;
     margin-right: 40px;
 }
 .line_1{
-    border:5px solid rgb(28, 35, 242);
+    border:5px solid teal;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -159,4 +170,5 @@ body{
     text-align: center;
     font-size: 2rem;
     text-decoration: none;
+    color: white;
 }
