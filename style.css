@@ -12,11 +12,13 @@ body{
 }
 /*------------------- top line one--------------------*/
 .top_line1{
-    width: 90vw;
+    width: 94vw;
     height: 2vh;
-    background-color: rgb(236, 13, 13);
+    background-color: white;
     position: absolute;
-    right: 0%;
+     right: 0%; 
+     top:1rem;
+    margin-left:4.5rem;
 }
 .top_line2{
     width: 9vw;
@@ -24,6 +26,9 @@ body{
     background-color: rgb(38, 6, 247);
     position: absolute;
     left: 0%;
+    top:4rem;
+    margin-left:6rem;
+    margin-top: -20px;
     
 }
 /*----------------orange part-----------*/
@@ -33,11 +38,13 @@ body{
     z-index: -2;
     position: left;
     height:auto;
+    padding: 50px;
+    margin-left: 100px;
 }
 .code{
-    font-size:60px;
+    font-size:10em;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: -6px;
     color: white;
 }
 .code_1{
@@ -46,7 +53,7 @@ body{
 }
 .text{
     position: relative;
-    margin-left: 50px;
+    margin-left: 20px;
     color: white;
 }
 .logo{
@@ -56,65 +63,78 @@ body{
     margin-left: 50px;
     position: relative;
 }
+
+/*--------------------------------------------BUSINESS--------------------------------  */
+
 .text_bus{
     font-size: 15rem;
     font-weight: bold;
     color: white;
-    margin-left: 50px;
+    margin-left: 10px;
 }
+
 .fly{
     font-size: 100px;
     color: white;
-    margin-left: 50px;
+    margin-left: 30px;
     
 }
 .create{
     color:white;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 /*------------link-------------*/
 .link{
     font-size: 30px;
     font-weight: bold;
-    margin-left: 50px;
+    margin-left: 185px;
+    color: white;
 }
 .location{
     font-size: 30px;
     font-weight: 600;
-    margin-left: 50px;
+    margin-left: 170px;
+    color: white;
 }
 .call{
     font-size: 30px;
     font-weight: 600;
-    margin-left: 50px;
+    margin-left: 170px;
+    color: white;
 }
 .mail{
     font-size: 30px;
     font-weight: 600;
-    margin-left: 50px;
+    margin-left: 170px;
+    color: white;
 }
-/*-----------green part-----------*/
+        /*---------------------------------green part------------------------------------*/
+
 .green{
     box-sizing: border-box;
-    background-color: rgba(88, 239, 80, 0.838);
-    z-index: -1;
+    background-color: rgba(0, 255, 255, 0.235);
+    z-index: -2;
     position: left;
     height:auto;
     bottom: 0%;
+    margin-top: -40rem;
+
 }
 .A{
-    font-size: 80px;
+    font-size: 120px;
     font-weight: bold;
     text-align: right;
     color: white;
     margin-right: 40px;
 }
+/* -------------------------------------Green part paragraph----------------------------- */
 .paragraph{
     text-align: right;
     color: white;
-    margin-left: 20px;
-    margin-right: 40px;
+     margin-left: 20px;
+    margin-right: 40px; 
+    
 
 }
 .line{
@@ -126,4 +146,17 @@ body{
     border:5px solid rgb(28, 35, 242);
     margin-left: 40px;
     margin-right: 40px;
+}
+/* ------------------------------------------icon-------------------------------------------- */
+.icon{
+   margin-block: 50px;
+   display: flex;
+   justify-content: space-around;
+
+}
+/* -------------------------------------footer link ------------------------*/
+.web_link{
+    text-align: center;
+    font-size: 2rem;
+    text-decoration: none;
 }
